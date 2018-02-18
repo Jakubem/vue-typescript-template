@@ -1,8 +1,5 @@
 import { Component, Vue } from 'vue-property-decorator'
 import axios, { AxiosResponse } from 'axios'
-import bContainer from 'bootstrap-vue/es/components/layout/container'
-import bCol from 'bootstrap-vue/es/components/layout/col'
-import bRow from 'bootstrap-vue/es/components/layout/row'
 
 interface UserResponse {
   id: string
