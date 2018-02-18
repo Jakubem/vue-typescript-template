@@ -1,6 +1,6 @@
 # vue-ts-kie
 
-> Template for vue-cli with typescript support for [KIE project](https://github.com/kie-project) 
+> Template for vue-cli with typescript support for [KIE project](https://github.com/kie-project) <br/>
 > Based on [vue-webpack-typescript](https://github.com/ducksoupdev/vue-webpack-typescript)
 
 ## Build Setup
