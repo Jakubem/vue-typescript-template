@@ -1,10 +1,4 @@
 import { Component, Vue, Watch } from 'vue-property-decorator'
-import bCollapse from 'bootstrap-vue/es/components/collapse/collapse'
-import bNavItem from 'bootstrap-vue/es/components/nav/nav-item'
-import bNavbar from 'bootstrap-vue/es/components/navbar/navbar'
-import bNavbarToggle from 'bootstrap-vue/es/components/navbar/navbar-toggle'
-import bNavbarBrand from 'bootstrap-vue/es/components/navbar/navbar-brand'
-import bNavbarNav from 'bootstrap-vue/es/components/navbar/navbar-nav'
 import { Link } from './link'
 import { Logger } from '../../util/log'
 
