@@ -8,11 +8,7 @@ interface UserResponse {
 
 @Component({
   template: require('./list.html'),
-  components: {
-    'b-container': bContainer,
-    'b-col': bCol,
-    'b-row': bRow
-  }
+  components: {}
 })
 export class ListComponent extends Vue {
 

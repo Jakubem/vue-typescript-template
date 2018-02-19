@@ -4,11 +4,7 @@ import './home.scss'
 
 @Component({
   template: require('./home.html'),
-  components: {
-    'b-container': bContainer,
-    'b-col': bCol,
-    'b-row': bRow
-  }
+  components: {}
 })
 export class HomeComponent extends Vue {
 

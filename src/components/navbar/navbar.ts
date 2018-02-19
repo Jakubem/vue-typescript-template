@@ -4,14 +4,7 @@ import { Logger } from '../../util/log'
 
 @Component({
   template: require('./navbar.html'),
-  components: {
-    'b-collapse': bCollapse,
-    'b-nav-item': bNavItem,
-    'b-navbar': bNavbar,
-    'b-navbar-toggle': bNavbarToggle,
-    'b-navbar-brand': bNavbarBrand,
-    'b-navbar-nav': bNavbarNav
-  }
+  components: {}
 })
 export class NavbarComponent extends Vue {
 

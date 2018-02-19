@@ -3,11 +3,7 @@ import { Logger } from '../../util/log'
 
 @Component({
   template: require('./about.html'),
-  components: {
-    'b-container': bContainer,
-    'b-col': bCol,
-    'b-row': bRow
-  }
+  components: {}
 })
 export class AboutComponent extends Vue {
 
