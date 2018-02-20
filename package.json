@@ -5,8 +5,8 @@
   "author": "Jakubem <jakubmx@gmail.com>",
   "private": true,
   "engines": {
-    "node": ">=6",
-    "npm": ">=3"
+    "node": ">=8",
+    "npm": ">=4"
   },
   "scripts": {
     "build": "cross-env-shell NODE_ENV=production npm run clean && npm run lint && npm run test && npm run compile",
