@@ -9,7 +9,7 @@
     "npm": ">=5"
   },
   "scripts": {
-    "build": "webpack --config config/webpack.config.prod.js",
+    "prod": "webpack --config config/webpack.config.prod.js",
     "dev": "webpack-dev-server --config config/webpack.config.dev.js --hot --inline",
     "lint": "tslint src/**/*.ts",
     "serve": "http-server dist/ -g -o"
